@@ -1,0 +1,11 @@
+<!-- <p>
+  parent works!
+</p> -->
+<app-child1 [arr]="data" (addIndex)="add($event)"></app-child1>
+<app-child2 [arr]="data" (delIndex)="del($event)" (changeIndex)="change($event)">
+  <h3 class="header">正在进行<span>{{data.length}}</span></h3>
+</app-child2>
+<app-child2 [arr1]="data1" (delIndex1)="del1($event)" (changeIndex1)="change1($event)">
+  <h3 class="header">已经完成<span>{{data1.length}}</span></h3>
+</app-child2>
+
