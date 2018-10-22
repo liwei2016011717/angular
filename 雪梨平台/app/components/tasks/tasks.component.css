@@ -1,0 +1,61 @@
+.inside{
+    /* border: 1px solid red;  */
+    width: 720px;
+    height: 36px;
+    margin-top: 20px;
+}
+.im1{
+    width: 10px;
+    height: 10px;
+}
+ul{
+    margin-left: 10px;
+    cursor: pointer;
+    /* margin-top: -20px; */
+}
+ul li{
+    float: left;
+    margin-left: 15px;
+}
+ul li a:hover{
+    color:rgb(87, 33, 33);
+}
+.num{
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: orange;
+}
+ul li a{
+    font-size: 14px;
+    color: rgb(63, 60, 60);
+}
+.sou{
+    float: right;
+    margin-top: -3px;
+    margin-right: 10px;
+}
+input{
+    border: 1px solid lightgray;
+    height: 30px;
+}
+button{
+    width: 40px;
+   opacity: 0.8;
+   border-radius: 10%;
+}
+.im2{
+    width: 20px;
+    height: 20px;
+}
+hr{
+    width: 690px;
+    margin-top: 13px;
+    margin-left: 16px;
+}
+#outside{
+    /* border: 1px solid red; */
+    width: 780px;
+    height: 500px;
+    margin-top: 10px;
+    margin-left: 10px;
+}

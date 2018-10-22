@@ -1,0 +1,16 @@
+
+<div class="container">
+  <ul>
+    <li *ngFor="let course of courses;">
+        <a [routerLink]="['/tongbu',course.id]">
+          <img src="{{course.images}}" alt="" class="im2">
+          <h3>{{course.courseName}}</h3>
+          <div class="inside">
+            <span class="span1"><img src="assets/images/11.png" class="im1"/>  {{course.task}}</span>&nbsp;&nbsp;
+            <a [routerLink]="['./person']"><span><img src="assets/images/user0.png" class="im1"/>  {{course.person}}</span></a>
+            <button id="btn"><span>+</span>&nbsp;&nbsp;申请</button>
+          </div>
+        </a>
+    </li>
+  </ul>
+</div>

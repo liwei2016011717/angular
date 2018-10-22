@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="content">
+    <ul>
+      <li *ngFor="let item of details;">
+        <a [routerLink]="['/course',item.id]">
+          <img src="{{item.images}}" alt="">
+          <h3>{{item.course1Name}}</h3>
+          <p>{{item.content}}</p>
+              <span class="time">课时&nbsp;{{item.time}}</span>
+              <span class="person">人数&nbsp; {{item.person}}</span>
+        </a>     
+      </li>
+    </ul>
+  </div>
+</div>

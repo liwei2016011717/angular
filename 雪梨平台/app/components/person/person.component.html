@@ -1,0 +1,19 @@
+<div>
+    <button class="btn">全部成员</button>
+    <div class="list">
+        <div class="header"><p class="name">昵称</p><p class="role">角色</p></div>
+        <ul>
+            <li *ngFor="let item of persons" class="list1">
+                <a [routerLink]="">
+                    <ul>
+                        <li> <img src="assets/images/name.jpg" class="im1"/></li>
+                        <li class="name"> <p>{{item.name}}</p></li>
+                       
+                    </ul>
+                   <span class="roles">{{item.role}}</span>
+                   
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>

@@ -1,0 +1,20 @@
+<div>
+  <a [routerLink]="['/tongbuke']" class="join">我加入的</a>
+  <hr>
+  <ul>
+    <li *ngFor="let course of courses">
+      <a [routerLink]="['/tongbu',course.id]">
+        <img src="{{course.images}}" alt="">
+        <div class="inside">
+            <h4>{{course.courseName}}</h4>
+            <a [routerLink]="['/jianjie']" class="jianjie">{{course.jianjie}}</a>
+            <div class="ha">
+                <img src="assets/images/11.png" class="im1"/>  {{course.task}}&nbsp;&nbsp;
+                <img src="assets/images/user0.png" class="im1"/>  {{course.person}}
+            </div> 
+          </div>
+    <hr class="he">
+      </a>
+    </li>
+  </ul>
+</div>

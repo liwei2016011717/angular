@@ -1,0 +1,53 @@
+.left{
+    /* border:1px blue solid; */
+    width: 160px;
+    height: 460px;
+    margin-left: 120px;
+    margin-top: 20px;
+    cursor: pointer;
+    position: fixed;
+}
+.name{
+    /* border:1px blue solid; */
+   margin-left: 50px;
+}
+.fensi{
+    /* border:1px blue solid; */
+    font-family: '宋体';
+    font-size: 14px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.guanzhu{
+    /* border:1px blue solid; */
+    font-family: '宋体';
+    font-size: 14px;
+    margin-left: 60px;
+}
+.im1{
+    width: 10px;
+    height: 10px;
+}
+.left ul{
+    /* border:1px red solid; */
+    margin-top: 20px;
+}
+.left ul li{
+    height: 30px;
+    /* border:1px blue solid; */
+    margin-top: 10px;
+}
+.left ul li:hover{
+    background-color:pink;
+    opacity: 0.5;
+}
+.left ul li a{
+    color: black;
+}
+#right{
+    border: 2px solid whitesmoke;
+    width: 800px;
+    height: 800px;
+    margin-top: 20px;
+    margin-left: 300px;
+}

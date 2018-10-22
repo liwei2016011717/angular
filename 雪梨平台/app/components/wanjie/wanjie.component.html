@@ -1,0 +1,21 @@
+<div>
+    <ul>
+        <li *ngFor="let item of finishs" class="list"> 
+            <a [routerLink]="['/tongbu',item.id]">
+            <div class="content1">
+                <ul>
+                  <li><h5>{{item.work}}</h5></li>
+                  <li class="inside">已截止</li>
+                  <li class="inside1">优秀</li>
+                </ul>
+                <span>{{item.grade}}</span>
+              </div>
+              <div class="content2">
+                &nbsp;<img src="assets/images/tongbu.png" class="im1"/>
+                &nbsp;{{item.courseName}}
+                <img src="assets/images/look.png" class="im2">&nbsp;<span class="sp">∨</span>
+              </div>
+            </a>
+         </li>
+    </ul>
+</div>

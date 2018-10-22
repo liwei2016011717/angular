@@ -1,0 +1,26 @@
+<div>
+    <div class="btn">
+        <a [routerLink]=""><button id="btn1">全部任务</button></a>
+        <a [routerLink]=""><button id="btn2">成绩分析</button></a>
+    </div>
+    <div class="task">
+        <div class="content">
+            <ul >
+                <li *ngFor="let item of task" class="list">
+                    <a [routerLink]="">
+                        <p>{{item.courseName}}</p>
+                    </a>
+                    <ul class="list1">
+                        <li><a [routerLink]=""><img src="assets/images/name.jpg" class="im1"/></a></li>
+                        <li class="name"><a [routerLink]="" >{{item.name}}</a></li>
+                        <li class="time">发布于 {{item.time}}</li>
+                        <li class="time">{{item.person1}}</li>
+                        <li class="time">{{item.person2}}</li>
+                        <li class="time">{{item.person3}}</li>
+                        <li class="jie">已截止</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

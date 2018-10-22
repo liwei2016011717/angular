@@ -1,0 +1,31 @@
+<div class="container">
+    <img src="{{article?.images}}" alt="" class="im1">
+    <h2>{{article?.courseName}}</h2>
+    <div class="list">
+        <ul>
+          <li><a [routerLink]=""><img src="assets/images/name.jpg" alt="" class="im2"></a></li>
+          <li class="name"><a [routerLink]="">{{article?.name}}</a></li>
+          <li class="time">发布于{{article?.time}}</li>
+          <li class="read">阅读量：{{article?.read}}</li>
+        </ul>
+    </div>
+    <p>{{article?.content1}}</p>
+    <p>{{article?.content2}}</p>
+    <img src="{{article?.images1}}" alt="" class="im3">
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{article?.content3}}</p>
+    <ul class="comment">
+        <li><a [routerLink]="['/hudong']"><img src="assets/images/cu.png" class="im4"/></a></li>
+        <li><a [routerLink]="['/hudong']"><img src="assets/images/xie.png" class="im5"/></a></li>
+        <li><a [routerLink]="['/hudong']"><img src="assets/images/xia.png" class="im6"/></a></li>
+        <li><a [routerLink]="['/hudong']"><img src="assets/images/11.png" class="im6"></a></li>
+        <li><a [routerLink]="['/hudong']"><img src="assets/images/hudong.png" class="im6"/></a></li>
+        <li><a [routerLink]="['/hudong']"><img src="assets/images/picture.png" class="im6"/></a></li>
+        <li><a [routerLink]="['/hudong']"><img src="assets/images/link.png" class="im6"/></a></li>
+        <li><a [routerLink]="['/hudong']"><img src="assets/images/quan.png" class="im6"/></a></li>
+    </ul>
+    <textarea name="" id="text"></textarea>
+    <div class="write">
+      <img src="assets/images/hua.png" alt="" class="im4"><a>&nbsp;&nbsp;话题</a>
+      <button id="btn">评论</button>
+    </div>
+</div>

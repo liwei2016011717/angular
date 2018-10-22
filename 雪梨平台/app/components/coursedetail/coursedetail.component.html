@@ -1,0 +1,28 @@
+<div class="container">
+    <div class="header">
+        <ul>
+            <li><a [routerLink]="['/home']"><img src="assets/images/home.png" class="im1"/></a><span>&nbsp;/</span></li>
+            <li><a [routerLink]="['/course']" class="work">&nbsp;{{video?.courseName}}&nbsp;&nbsp;</a><span>/</span></li>
+            <li><a [routerLink]="" class="work">{{video?.work1}}&nbsp;&nbsp;</a><span>/</span></li>
+            <li><a [routerLink]="" class="work">{{video?.work2}}&nbsp;&nbsp;</a><span>/</span></li>
+            <li><a [routerLink]="" class="work1">{{video?.work3}}</a></li>
+        </ul>
+    </div>  
+    <p>{{video?.work3}}</p>
+    <div class="videos">
+        <video src="{{video?.video}}" controls="controls"  class="video"></video>
+        <div class="list">
+            <ul class="list1">
+                <li><p>课程目录</p></li>
+                <li class="list3"><a>1&nbsp;{{video?.work1}}</a></li>
+                <li class="list2">
+                    <a>2&nbsp;{{video?.work2}}</a>
+                    <ul>
+                        <li><a [routerLink]="">2-1&nbsp;{{video?.work3}}</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+</div>

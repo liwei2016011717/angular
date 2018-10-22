@@ -1,0 +1,51 @@
+p{
+    font-size: 14px;
+}
+ul{
+    width: 500px;
+    height: 30px;
+    border: 2px solid lightgray;
+    margin-top: 10px;
+}
+ul li{
+    float: left;
+    margin-left: 10px;
+}
+.im1{
+    width: 15px;
+    height: 15px;
+    margin-top: 6px;
+}
+.im2{
+    width: 16px;
+    height: 16px;
+    margin-top: 6px;
+}
+.im3{
+    width: 14px;
+    height: 14px;
+    margin-top: 7px;
+}
+#text{
+    width: 500px;
+    height: 100px;
+}
+.write{
+    /* border: 1px solid red; */
+    color:gray;
+    font-size: 14px;
+    width:500px;
+    height: 25px; 
+    cursor: pointer;
+}
+.im4{
+    width: 15px;
+    height: 13px;
+}
+#btn{
+    border: 1px solid orange;
+    float: right;
+    background-color: orange;
+    margin-top: 5px;
+    cursor: pointer;
+}

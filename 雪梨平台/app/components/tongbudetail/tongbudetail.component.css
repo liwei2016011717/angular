@@ -1,0 +1,47 @@
+.container{
+    /* border: 1px solid red; */
+    height: 122px;
+}
+.inside{
+    border: 1px solid lightgray;
+    height: 120px;
+    background-color: whitesmoke;
+}
+.list{
+    /* border: 1px solid red; */
+    width: 400px;
+    margin-top: 30px;
+    margin-left: 110px;
+}
+.list li{
+    /* border: 1px solid red; */
+    color: black;
+    float: left;
+    margin-left: 25px;
+}
+h3{
+    /* border: 1px solid red; */
+    width: 300px;
+    height: 30px;
+    margin-left: 120px;
+    margin-top: 20px;
+}
+.im1{
+    width: 14px;
+    height: 14px;
+}
+#btn{
+    color: white;
+    background-color: orange;
+}
+#btn span{
+    font-weight: bolder;
+    margin-left: 5px;
+}
+.down{
+    border: 2px solid whitesmoke;
+    width: 800px;
+    height: 800px;
+    margin-left: 120px;
+    margin-top: 20px;
+}

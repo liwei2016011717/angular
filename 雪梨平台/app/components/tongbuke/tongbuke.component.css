@@ -1,0 +1,49 @@
+.join{
+    border-bottom: 2px solid orangered;
+    color: orangered;
+}
+hr{
+    color: gray;
+    opacity: 0.3;
+    margin-top: 5px;
+}
+ul{
+    margin-top: 20px;
+}
+ul li{
+    /* border: 1px solid red; */
+    width: 720px;
+    height: 180px;
+}
+.inside{
+    /* border: 1px solid red; */
+    width: 400px;
+    height: 140px;
+    color: gray;
+    font-family: '宋体';
+    margin-left: 250px;
+    margin-top: -130px;
+}
+h4{
+    color:rgb(44, 38, 38);
+    font-size: 17px;
+}
+.im1{
+    width: 12px;
+    height: 12px;
+    margin-bottom: -1px;
+}
+.ha{
+    /* border: 1px solid red; */
+    margin-top: 60px;
+    font-size: 10px;
+}
+.jianjie{
+    /* border: 1px solid yellow; */
+    font-size: 12px;
+}
+.he{
+    color:whitesmoke;
+    opacity: 0.3;
+    margin-top: 5px;
+}

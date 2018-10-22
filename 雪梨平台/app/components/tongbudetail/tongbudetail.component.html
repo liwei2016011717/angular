@@ -1,0 +1,19 @@
+<div class="container">
+  <div class="inside">
+    <h3>
+      <img src="assets/images/tongbu.png" class="im1">   同步课  /  {{course?.courseName}}
+      &nbsp;&nbsp;&nbsp;
+      <button id="btn"><span>+</span>&nbsp;&nbsp;申请加入</button>
+    </h3>
+    
+    <ul class="list">
+      <a [routerLink]="['./jianjie']"><li><img src="assets/images/jianjie.png" class="im1">&nbsp;简介</li></a>
+      <a [routerLink]="['./hudong']"><li><img src="assets/images/hudong.png" class="im1">&nbsp;互动</li></a>
+      <a [routerLink]="['./task']"><li><img src="assets/images/1.png" class="im1">&nbsp;任务&nbsp;{{course?.task}}</li></a>
+      <a [routerLink]="['./person']"><li><img src="assets/images/user0.png" class="im1">&nbsp;成员&nbsp;{{course?.person}}</li></a>
+    </ul>
+  </div>  
+</div>
+<div class="down">
+    <router-outlet></router-outlet>
+</div>

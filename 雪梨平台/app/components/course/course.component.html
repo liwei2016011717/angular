@@ -1,0 +1,21 @@
+<div class="container">
+  <ul class="list1">
+    <li>
+      <button id="btn">课程分类<img src="assets/images/caidan.png" alt="" class="im1"></button>
+    </li>
+    <li><button id="btn">课程体系<img src="assets/images/caidan.png" alt="" class="im1"></button></li>
+  </ul>
+  <div class="content">
+    <ul>
+      <li *ngFor="let item of details;">
+        <a [routerLink]="['/course',item.id]">
+          <img src="{{item.images}}" alt="">
+          <h3>{{item.course1Name}}</h3>
+          <p>{{item.content}}</p>
+          <span class="time">课时&nbsp;{{item.time}}</span>
+          <span class="person">人数&nbsp; {{item.person}}</span>
+        </a>     
+      </li>
+    </ul>
+  </div>
+</div>

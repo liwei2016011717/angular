@@ -1,0 +1,69 @@
+.container{
+    /* border: 1px solid yellow; */
+    width: 1000px;
+    height: 600px;
+    margin-left: 125px;
+    margin-top: 20px;
+}
+.list1{
+    /* border: 1px solid red; */
+    width: 200px;
+    height: 38px;
+}
+.list1 li{
+    width: 90px;
+    height: 35px;
+    float: left;
+}
+#btn{
+    width: 90px;
+    height: 35px;
+    background-color: white;
+    cursor: pointer;
+}
+.im1{
+    width: 15px;
+    height: 12px;
+}
+.content{
+    /* border: 1px solid red; */
+    width: 1000px;
+    height: 500px;
+    margin-top: 10px;
+    margin-left: -5px;
+}
+img{
+    width: 240px;
+    height: 160px;
+}
+.content ul li{
+    border: 0.5px solid lightgray;
+    width: 240px;
+    height: 280px;
+    float: left;
+    margin-left: 7px;
+}
+h3{
+    font-size: 14px;
+    color:rgb(56, 54, 54);
+    margin-left: 10px;
+    margin-top: 5px;
+}
+p{
+    color: gray;
+    font-size: 12px;
+    margin-left: 10px;
+    margin-top: 8px;
+}
+.time{
+    color: gray;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.person{
+    color: gray;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: 120px;
+}

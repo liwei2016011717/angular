@@ -1,0 +1,47 @@
+.inside{
+    /* border: 1px solid red;  */
+    width: 720px;
+    height: 36px;
+    margin-top: 20px;
+}
+.im1{
+    width: 10px;
+    height: 10px;
+}
+.im2{
+    width: 10px;
+    height: 10px;
+    color: orange;
+}
+ul{
+    margin-left: 10px;
+    cursor: pointer;
+    /* margin-top: -20px; */
+}
+ul li{
+    float: left;
+    margin-left: 15px;
+}
+ul li a:hover{
+    color:orange;
+}
+.a1{
+    color: orangered;
+    font-size: 14px;
+}
+.a2{
+    color: rgb(63,60,60);
+    font-size: 14px;
+}
+hr{
+    width: 690px;
+    margin-top: 13px;
+    margin-left: 16px;
+}
+#outside{
+    /* border: 1px solid red; */
+    width: 780px;
+    height: 500px;
+    margin-top: 10px;
+    margin-left: 10px;
+}

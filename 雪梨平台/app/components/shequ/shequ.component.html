@@ -1,0 +1,22 @@
+<!-- <p>
+  shequ works!
+</p> -->
+<app-topic></app-topic>
+<div class="container">
+  <ul>
+    <li *ngFor="let article of articles">
+      <a [routerLink]="['/shequ',article.id]">
+        <img src="assets/images/name.jpg" alt="" class="im1">
+        <img src="{{article.images}}" alt="" class="im2">
+        <img src="assets/images/wen.png" alt="" class="im3">
+        <h5>{{article.courseName}}</h5>
+      </a>
+      <p>{{article.content}}</p>
+      <div class="footer">
+        <span class="foot1">{{article.name}}&nbsp;&nbsp;·&nbsp;&nbsp;{{article.time}}</span>
+        <span class="foot2">阅读&nbsp;{{article.read}}&nbsp;&nbsp;|&nbsp;&nbsp;<a [routerLink]="">评论</a>&nbsp;{{article.comment}}</span>
+        <hr/>
+    </div>
+    </li>
+  </ul>
+</div>

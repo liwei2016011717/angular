@@ -1,0 +1,38 @@
+.container{
+    /* border: 1px solid blue; */
+    width: 200px;
+    height: 370px;
+    margin-left: 800px;
+    margin-top: 15px;
+    position: fixed;
+}
+h4{
+    color: rgb(87, 84, 84);
+}
+hr{
+    width: 200px;
+    height: 1px;
+    color: whitesmoke;
+    margin-top: 5px;
+}
+.topic{
+    /* border: 1px solid red; */
+    width: 200px;
+    height:330px; 
+    /* margin-top: 3px; */
+}
+.topic li{
+    margin-top: 10px;
+}
+.topic li a{
+    color: rgb(87, 84, 84);
+    font-size: 11px;
+}
+.topic li a:hover{
+    color: rgb(48, 32, 32);
+}
+.topic li span{
+    float: right;
+    color: lightgray;
+    font-size: 14px;
+}

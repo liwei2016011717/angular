@@ -1,0 +1,47 @@
+.inside{
+    /* border: 1px solid  red; */
+    width: 700px;
+    height: 400px;
+    margin-left: 10px;
+}
+img{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color:lightgray;
+}
+.right{
+    /* border: 1px solid blue; */
+    width: 520px;
+    height: 400px;
+    float: right;
+    margin-right: 120px;
+}
+span{
+    color: orangered;
+    color: 0.7;
+}
+.name{
+    font-size: 14px;
+}
+.content{
+    font-size: 13px;
+    margin-top: 10px;
+}
+.footer{
+    margin-top: 10px;
+}
+.footer ul li{
+    float: left;
+    font-size: 12px;
+    color: gray;
+}
+.footer ul li a{
+    color: gray;
+}
+.li1{
+    margin-left: 290px;
+}
+.li2{
+    margin-left: 10px;
+}

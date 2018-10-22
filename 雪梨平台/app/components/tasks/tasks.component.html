@@ -1,0 +1,17 @@
+
+  <div class="inside">
+    <ul>
+      <li><img src="assets/images/time.png" class="im1"/><a [routerLink]="['./commit']">&nbsp;未提交&nbsp;<span class="num">&nbsp;0&nbsp;</span></a></li>
+      <li><img src="assets/images/fin.png" class="im1"/><a [routerLink]="['./finish']">&nbsp;已完成&nbsp;</a></li>
+      <li><img src="assets/images/jie.png" class="im1"/><a [routerLink]="['./wanjie']">&nbsp;已完结&nbsp;</a></li>
+    </ul>
+    <div class="sou">
+      <input type="search" placeholder="输入同步课的名称搜索"/>
+      <button><img src="assets/images/search.png" alt="" class="im2"></button>
+    </div> 
+    <br>
+    <hr>
+  </div>
+  <div id="outside">
+      <router-outlet></router-outlet>
+  </div>  

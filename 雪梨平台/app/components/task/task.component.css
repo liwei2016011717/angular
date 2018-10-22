@@ -1,0 +1,80 @@
+.btn{
+    /* border: 1px solid red; */
+    width: 160px;
+    height: 50px;
+}
+#btn1{
+    border: 1px solid orangered;
+    background-color: orangered;
+    border-radius: 5%;
+    opacity: 0.7;
+    width: 70px;
+    height: 30px;
+    color: white;
+    cursor: pointer;
+}
+#btn2{
+    background-color: white;
+    border-radius: 5%;
+    width: 70px;
+    height: 30px;
+    cursor: pointer;
+}
+.task{
+    /* border: 1px solid blue; */
+    width: 800px;
+    height: 450px;
+}
+.content{
+    /* border: 1px solid red; */
+    width: 770px;
+    height: 400px;
+    margin-left: 15px;
+}
+.list{
+    /* border: 1px solid red; */
+    width: 770px;
+    height: 80px;
+    margin-top: 20px;
+}
+   
+p{
+    color: rgb(43, 40, 40);
+    font-size: 16px;
+}
+
+.im1{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-color:lightgray;
+}
+.list1{
+    /* border: 1px solid blue; */
+    width: 770px;
+    height: 40px;
+    margin-top: 10px;
+}
+.list1 li{
+    float: left;
+}
+.name{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.name a{
+    color: gray;
+    font-size: 13px;
+}
+.time{
+    color: gray;
+    font-size: 13px;
+    margin-left: 10px;
+    margin-top: 12px;
+}
+.jie{
+    color:orange;
+    font-size: 13px;
+    margin-left: 400px;
+    margin-top: 10px;
+}

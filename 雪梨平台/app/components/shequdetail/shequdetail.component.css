@@ -1,0 +1,109 @@
+.container{
+    /* border: 1px solid red; */
+    width: 690px;
+    height: 1200px;
+    margin-left: 230px;
+    margin-top: 30px;
+}
+.im1{
+    width: 680px;
+    height: 270px;
+}
+h2{
+    color: rgb(63, 61, 61);
+    margin-top: 10px;
+}
+.im2{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color:lightgray;
+    margin-bottom: 45px;
+    
+}
+.list{
+    /* border: 1px solid red; */
+    width: 690px;
+    height: 45px;
+    margin-top: 16px;
+}
+.list ul li{
+    float: left;
+    color: gray;
+}
+.name{
+    margin-top: 7px;
+    margin-left: 15px;
+}
+.name a{
+    color: gray;
+    font-size: 13px;
+}
+.time{
+    margin-top: 10px;
+    font-size: 13px;
+    margin-left: 15px;
+}
+.read{
+    margin-left: 340px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+p{
+    color: rgb(44, 43, 43);
+    font-size: 15px;
+    margin-top: 10px;
+    line-height: 25px;
+}
+.im3{
+    width: 500px;
+    height: 300px;
+    margin-left: 70px;
+    margin-top: 13px;
+}
+
+.im4{
+    width: 15px;
+    height: 15px;
+    margin-top: 6px;
+}
+.im5{
+    width: 16px;
+    height: 16px;
+    margin-top: 6px;
+}
+.im6{
+    width: 14px;
+    height: 14px;
+    margin-top: 7px;
+}
+#text{
+    width: 680px;
+    height: 120px;
+}
+.comment{
+    width: 680px;
+    height: 30px;
+    border: 2px solid lightgray;
+    margin-top: 10px;
+}
+.comment li{
+    float: left;
+    margin-left: 16px;
+}
+.write{
+    /* border: 1px solid red; */
+    color:gray;
+    font-size: 14px;
+    width:680px;
+    height: 25px; 
+    cursor: pointer;
+}
+#btn{
+    border: 1px solid orangered;
+    float: right;
+    background-color: orangered;
+    cursor: pointer;
+    margin-top: 5px;
+    border-radius: 10%;
+}

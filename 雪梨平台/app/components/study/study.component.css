@@ -1,0 +1,41 @@
+.content{
+    /* border: 1px solid red; */
+    width: 800px;
+    height: 300px;
+    margin-top: 10px;
+}
+img{
+    width: 180px;
+    height: 100px;
+}
+.content ul li{
+    border: 0.5px solid lightgray;
+    width: 180px;
+    height: 230px;
+    float: left;
+    margin-left: 10px;
+}
+h3{
+    font-size: 14px;
+    color:rgb(56, 54, 54);
+    margin-left: 10px;
+    margin-top: 5px;
+}
+p{
+    color: gray;
+    font-size: 12px;
+    margin-left: 10px;
+    margin-top: 8px;
+}
+.time{
+    color: gray;
+    font-size: 12px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.person{
+    color: gray;
+    font-size: 12px;
+    margin-top: 5px;
+    margin-left: 55px;
+}
