@@ -1,0 +1,30 @@
+page-shezhi {
+    ion-content{
+        background: #eeeeee!important;
+        ion-list{
+            ion-item{
+               width: 450px;
+               height: 50px;
+               img{
+                   margin-top: 8px;
+                   width: 20px;
+                   height: 19px;
+               }
+               .left{
+                 font-size:16px;margin-left:10px;
+               }
+               .right{
+                 float:right;margin-top:5px;
+               }
+            }
+        }
+        .login{
+            text-align: center;
+           line-height: 60px;
+            width: 100%;
+            height: 60px;
+            font-size:18px;
+            background-color: #ffdb2c;
+        }
+    }
+}

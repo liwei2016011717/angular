@@ -1,0 +1,23 @@
+page-a {
+    .meitu{
+        padding: 0;
+        margin: 0;
+        li{
+            img{
+                width: 100%;
+                display: block;
+            }
+            .wenzi{
+                position: absolute;
+                width: 180px;
+                height: 110px;
+                margin: -170px 90px;
+                color: white;
+                background-color:rgba(0,0,0,0.4);
+                p{
+                    text-align: center;
+                }
+            }
+        }
+    }
+}

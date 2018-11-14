@@ -1,0 +1,32 @@
+page-search {
+    .search{
+        width: 100%;
+        background: #fafafa!important;
+        border-bottom: 0.1px solid;
+        ion-searchbar{
+            width:85%;
+        }
+        span{
+            float:right;
+            font-size: 15px;
+            margin-top:-40px;
+            margin-right:10px;
+        }
+    }
+    p{
+        color: #8f8f8f;
+        margin-left: 10px;
+    }
+    .shop{
+        padding: 0;
+        li{
+            text-align: center;
+            line-height: 25px;
+            height: 25px;
+            float: left;
+            border: 0.5px solid;
+            border-radius: 5%;
+            margin-left: 10px;
+        }
+    }
+}

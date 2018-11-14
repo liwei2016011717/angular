@@ -1,0 +1,16 @@
+page-login {
+    ion-content{
+        background-image: url(../assets/imgs/login.png);
+        .title{
+            color: #f0f0f1;
+            margin-top: 80px;
+            text-align: center;
+            h1{
+                letter-spacing: 5px;
+            }
+            span{
+                font-size: 10px;
+            }
+        }
+    }
+}

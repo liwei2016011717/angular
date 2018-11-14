@@ -1,0 +1,50 @@
+<ion-content>
+  <ion-searchbar 
+  placeholder="双12特惠好物超低价"  type="search" (click)="go()">
+  </ion-searchbar>
+  <img src="assets/imgs/cheng.png" alt="" style="display:block;">
+  <ul class="navList">
+    <li *ngFor="let item of arr;let idx=index;" (click)="isClick(idx)" [class.first]="isActive==idx">
+        {{item}}
+    </li>
+  </ul>
+  <div [ngSwitch]="isActive">
+    <div *ngSwitchCase="0" class="goods1">
+       <p>
+         —— 沙发 ——
+         <img src="assets/imgs/xuan.png" alt="" width="15px" height="16px" style="float:right;margin-right:10px;">
+      </p>
+     
+       <ul class="goods">
+        <li>
+          <img src="assets/imgs/goods-1.png" alt="">
+        </li>
+        <li>
+          <img src="assets/imgs/goods-2.png" alt="">
+        </li>
+        <li>
+          <img src="assets/imgs/goods-3.png" alt="">
+          <p>罗得蒙简约植绒布艺沙发</p>
+          <span>RMB 6500</span>
+        </li>
+        <li>
+          <img src="assets/imgs/goods-4.png" alt="">
+        </li>
+       </ul>
+       <span style="padding:0;margin-top:-10px;float:right;margin-right:10px;color:#666666;font-size:10px;">查看全部商品>></span>
+       <p style="margin-left:20%;"> —— 电视柜 ——</p>
+    </div>
+    <div *ngSwitchCase="1"> 
+      这是卧室
+    </div>
+    <div *ngSwitchCase="2"> 
+        这是餐厅
+    </div>
+    <div *ngSwitchCase="3"> 
+        这是书房
+    </div>
+    <div *ngSwitchCase="4"> 
+        这是门厅
+    </div>
+  </div>
+</ion-content>

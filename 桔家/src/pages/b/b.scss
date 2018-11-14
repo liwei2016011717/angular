@@ -1,0 +1,82 @@
+page-b {
+    ion-content{
+        background: url(../assets/imgs/my.png);
+        background-repeat: no-repeat;
+        .head{
+            width: 100%;
+            .title{
+                width: 102px;
+                height:102px;
+                border-radius:100%;
+                overflow: hidden;
+                margin:40px auto;
+            }
+            p{
+                margin-top: -30px;
+                font-size: 20px;
+                font-family: '宋体';
+                font-weight: bolder;
+            }
+        }
+        .content{
+            position: absolute;
+            width: 100%;
+            height: 400px;
+            background-color:#eeeeee;
+            .ding{
+                // border: 1px solid red;
+                width: 100%;
+                height: 22px;
+                margin-top: 15px;
+                font-size: 11px;
+                .first{
+                  margin-left:10px; 
+                }
+                .second{
+                    color: #777777;
+                    float: right;
+                    margin-right: 10px;
+                }
+            }
+            .inside{
+                width: 100%;
+                .row1{
+                    width: 100%;
+                    height: 86px;
+                    font-size: 12px;
+                }
+                img{
+                    width: 27px;
+                    height: 20px;
+                    margin-top: 20px;
+                }
+                .item1{
+                    background-color:#ffdb2c; 
+                    text-align: center;
+                }
+                .item2{
+                    background-color:#fcfcfc; 
+                    text-align: center;
+                }
+                .details{
+                    padding: 0;
+                    margin: 0;
+                    li{
+                        width: 49%;
+                        height:90px;
+                        float: left;
+                        margin: 2px 0 2px 1%;
+                        background-color: #fcfcfc;
+                       img{
+                           margin-left: 75px;
+                       }
+                        p{
+                            text-align: center;
+                            margin-bottom: 30px;
+                        }
+                    }
+                }
+            }
+        }
+   }
+}
